@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="yuwei_pure_pursuit" type="pure_pursuit" name="pure_pursuit" respawn="true" output="screen" >
+        <param name = "LOOK_AHEAD_DIST" value ="1.2"/>
+        <param name= "P_gain" value ="0.4"/>
+        <param name= "velocity" value ="3"/>
+    </node>
+</launch>
